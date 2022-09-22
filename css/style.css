@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.title{
+    color: #9DB0D1;
+    font-family: 'Arapey', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.text{
+    font-family: 'Verdana';
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 1024px;
+    color: #000000;
+    margin: 0 auto 50px auto;
+}
+
+.button{
+    font-family: 'Arapey', serif;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EBAC87;
+    text-transform: uppercase;
+    border: 2px solid #EBAC87;
+    border-radius: 10px;
+    padding: 24px 50px;
+    margin: 0px auto 50px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 2px solid #EBAC87;
+    background: white;
+    color: #EBAC87;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    font-family: 'Verdana';
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 25px 0 25px;
+}
+
+.icon{
+    background: #9DB0D1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    padding: 17px 15px 18px 15px ;
+    margin: 0 15px 0 0;
+}
+
+.link:hover .icon {
+     background: none;
+}
+
+.link:hover .icon svg * {
+    fill: #9DB0D1;
+}
+
+.holder{
+    background: #87C6EB;
+    margin: 0 auto;
+}
+
+.conteiner{
+    width: 350px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.number{
+    background: rgba(235, 172, 135, 0.4);;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-family: 'Verdana';
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+}
+
+.image{
+    width: 310px;
+    height: 310px;
+    background: #EBAC87;
+    padding: 0 20px 0 20 px;
+}
+
+.img{
+    width: 100%;
+}
+
+.description{
+    font-family: 'Verdana';
+    color: #000000;
+    margin: 20px 0 0 0;
+}
+
+.description strong{
+    font-weight: bold;
+}
+
+.two{
+    background: rgba(235, 172, 135, 0.6);;
+}
+
+.three{
+    background: #EBAC87;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.caption {
+    background: url(https://i.ibb.co/MRtVQY0/bg-cloud.png) repeat-x top / auto 200px,
+    linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+    padding: 250px 120px 50px;
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+
+.box-botton{
+    background: url(../image/Rectangle\ 3.png) bottom right / auto 475px no-repeat ;
+    min-height: 475px;
+    margin: 35px auto 0 auto;
+}
+
+.caption1{
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 45px 0 50px 0;
+    width: 480px;
+}
+
+.text1{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 50px 0;
+    width: 580px;
+}
+
+.text1 a{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.button1{
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EBAC87;
+    background: #FFFFFF;
+    padding: 24px 50px;
+    border-radius: 10px;
+    margin: 0 0 50px 0;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background: #EBAC87;
+    color: white;
+}
+
+.faq {
+    background: #EBAC87;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.faq:hover {
+    color: #EBAC87;
+    background: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.button3{
+    font-family: 'Arapey', serif;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EBAC87;
+    text-transform: uppercase;
+    border: 2px solid #EBAC87;
+    border-radius: 10px;
+    padding: 24px 50px;
+    cursor: pointer;
+}
+
+.button3:hover{
+    border: 2px solid #EBAC87;
+    background: white;
+    color: #EBAC87;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto 50px auto;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.icon1{
+    padding: 0 18px 0 18px;
+}
